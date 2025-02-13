@@ -12,7 +12,7 @@
 </head>
 <body>
     <br>    
-    <h1  class="titulo"style="text-align: center; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: xx-large">Bem vindo à Home-page do nosso Site Yay!</h1>
+    <h1  class="titulo"style="text-align: center; font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: xx-large">Bem vindo à Home-page do nosso Site Yay! 👋</h1>
 
 
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
