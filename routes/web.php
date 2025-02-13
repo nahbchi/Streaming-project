@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/cadFilmes',function () {
+    return view('pages.cadFilmes');
+})->name('cadfilmes');
+
+
 
 Route::middleware([
     'auth:sanctum',

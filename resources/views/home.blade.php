@@ -11,7 +11,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>teste</h1>
+    <br>
+        <div class="highlighted-text-shadow" style="display: flex; justify-content: center; font-size: xx-large; font-style: oblique; font-weight: bolder; height: 100vh;">
+            <h1>Bem vindo a nossa Home Page!! 👋</h1>
+          </div>
+          
+</div>
 </body>
 </html>
 
