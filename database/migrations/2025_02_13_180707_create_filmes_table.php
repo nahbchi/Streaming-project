@@ -13,16 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('nome');
-            $table->text('descricao')->nullable();
-            $table->integer('idade');
-            $table->string('cpf')->unique();
-            $table->timestamps();
+        Schema::create('filmes', function (Blueprint $table) {
+            $table->id(); 
+            $table->string('imagem'); 
+            $table->string('nome'); 
+            $table->text('descricao'); 
+            $table->string('categoria'); 
+            $table->integer('duracao'); 
+            $table->timestamps(); 
         });
     }
-    
 
     /**
      * Reverse the migrations.
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('filmes');
     }
 };
