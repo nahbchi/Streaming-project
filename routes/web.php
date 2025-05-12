@@ -25,3 +25,13 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('/404', function () {
+    return view('errors.404');  // Sua página personalizada de 404
+});
+
+
+Route::fallback(function () {
+    return redirect('/404');  // Redireciona para a página 404 personalizada
+});
